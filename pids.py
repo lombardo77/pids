@@ -46,7 +46,7 @@ def print_pids(filter="all"):
         else:
             status = colored(proc.status(), "red")
 
-        print(f"{id_label}: {id}   \t{status_label}: {status}   \t{name_label}: {name} \t {users}: {user} \t    {percent_label}: %{percent}")
+        print(f"{id_label}: {id}   \t{status_label}: {status}   \t{name_label}: {name} \t {users}: {user} \t    {percent_label}: {percent} %")
 
 print_pids()
 while True:
